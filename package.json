@@ -10,6 +10,10 @@
     "LICENSE",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BelicAntun/firstpackage.git"
+  },
   "scripts": {
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
